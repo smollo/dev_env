@@ -1,0 +1,64 @@
+[
+	{ "keys": ["super+^"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["super+shift+up"], "command": "swap_line_up" },
+	{ "keys": ["super+shift+down"], "command": "swap_line_down" },
+
+	{ "keys": ["super+b"], "command": "next_bookmark" },
+	{ "keys": ["super+shift+b"], "command": "prev_bookmark" },
+	{ "keys": ["super+alt+b"], "command": "toggle_bookmark" },
+	{ "keys": ["super+ctrl+b"], "command": "clear_bookmarks" },
+
+	// sublimerge
+    { "keys": ["ctrl+alt+c"], "command": "sublimerge"},
+
+	// origami
+	{ "keys": ["super+k", "k"], "command": "travel_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["super+k", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["super+k", "j"], "command": "travel_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["super+k", "h"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
+	{ "keys": ["super+k", "ctrl+k"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["super+k", "ctrl+l"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["super+k", "ctrl+j"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["super+k", "ctrl+h"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+
+	{ "keys": ["super+k", "alt+k"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["super+k", "alt+l"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["super+k", "alt+j"], "command": "clone_file_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["super+k", "alt+h"], "command": "clone_file_to_pane", "args": {"direction": "left"} },
+
+	{ "keys": ["super+k", "super+k"], "command": "create_pane", "args": {"direction": "up", "give_focus": true} },
+	{ "keys": ["super+k", "super+l"], "command": "create_pane", "args": {"direction": "right", "give_focus": true} },
+	{ "keys": ["super+k", "super+j"], "command": "create_pane", "args": {"direction": "down", "give_focus": true} },
+	{ "keys": ["super+k", "super+h"], "command": "create_pane", "args": {"direction": "left", "give_focus": true} },
+
+	{ "keys": ["super+k", "super+shift+l"], "command": "destroy_pane", "args": {"direction": "right"} },
+	{ "keys": ["super+k", "super+shift+h"], "command": "destroy_pane", "args": {"direction": "left"} },
+	{ "keys": ["super+k", "super+shift+j"], "command": "destroy_pane", "args": {"direction": "self"} },
+	{ "keys": ["super+k", "super+shift+k"], "command": "destroy_pane", "args": {"direction": "self"} },
+
+	{ "keys": ["super+k", "super+alt+k"], "command": "create_pane_with_file", "args": {"direction": "up"} },
+	{ "keys": ["super+k", "super+alt+l"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+	{ "keys": ["super+k", "super+alt+j"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+	{ "keys": ["super+k", "super+alt+h"], "command": "create_pane_with_file", "args": {"direction": "left"} },
+
+	{ "keys": ["super+k", "super+z"], "command": "zoom_pane", "args": {"fraction": 0.618} },
+	{ "keys": ["super+k", "super+shift+z"], "command": "unzoom_pane", "args": {} },
+
+	// PHP companion
+	// { "keys": ["f6"], "command": "expand_fqcn" },
+	// { "keys": ["shift+f6"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+	// { "keys": ["f5"], "command": "find_use" },
+	// { "keys": ["f4"], "command": "import_namespace" },
+	// { "keys": ["f3"], "command": "implement" },
+	// { "keys": ["shift+f12"], "command": "goto_definition_scope" },
+	// { "keys": ["f7"], "command": "insert_php_constructor_property" }
+	{ "keys": ["super+u", "super+shift+e"], "command": "expand_fqcn" },
+	{ "keys": ["super+u", "super+e"], "command": "expand_fqcn", "args": {"leading_separator": true} },
+	{ "keys": ["super+u", "super+u"], "command": "find_use" },
+	{ "keys": ["super+u", "super+n"], "command": "import_namespace" },
+	{ "keys": ["super+u", "super+i"], "command": "implement" },
+	{ "keys": ["super+u", "super+g"], "command": "goto_definition_scope" },
+	{ "keys": ["super+u", "super+p"], "command": "insert_php_constructor_property" }
+]

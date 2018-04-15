@@ -1,0 +1,5 @@
+# Directory management
+alias ll='ls -alsh'
+
+# git
+alias gs='git status'
