@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/wold/.oh-my-zsh
+export ZSH=/Users/Midlight/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -61,7 +61,6 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -98,7 +97,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Source functions and aliases.
 [[ -f ~/.zsh_functions ]] && source ~/.zsh_functions
-[[ -f ~/.zsh_aliases ]] && source ~/.zsh_aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
 [[ -f ~/.zsh_theme_powerlevel9k ]] && source ~/.zsh_theme_powerlevel9k
 . /usr/local/etc/profile.d/z.sh
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
