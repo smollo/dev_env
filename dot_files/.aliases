@@ -3,3 +3,13 @@ alias ll='ls -alsh'
 
 # git
 alias gs='git status'
+alias gf='git fetch'
+alias gc='git commit -m'
+
+#midlight
+alias tunnel_kfv='ssh -N -L localhost:1433:81.189.116.10:1433 root@staging.midlight.gmbh'
+alias tunnel_mysql='ssh -N -L localhost:3306:127.0.0.1:3307 root@staging.midlight.gmbh'
+alias tunnel_mongo='ssh -N -L localhost:27017:127.0.0.1:27017 root@staging.midlight.gmbh'
+
+#Info
+alias info_sleep='pmset -g log|grep -e "Display is turned"|tail -n 50|grep -e " \d\d:\d\d:\d\d " -e " on" -e " off"'
