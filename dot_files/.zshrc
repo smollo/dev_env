@@ -1,5 +1,9 @@
+ANDROID_HOME="/Users/midlight/Library/Android/sdk"
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/Library/Android/sdk/build-tools/28.0.2:$ANDROID_HOME/tools:$ANDROID_HOME/platform/tools:/usr/local/opt/tomcat@8/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Midlight/.oh-my-zsh
